@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+.headerimg{
+    Width: 529.41px;
+    Height: 540.59px ;
+    transform: translateX(-70px);
+}
+.signup img{
+Width:131.79px;
+Height:28px ;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.headercontent{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(85px) ;
+}
+.signup{
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+}
+.headercontent h2{
+    font-family: Manrope;
+    font-weight: 800;
+    width: 80%;
+    font-size:52px ;
+    background: linear-gradient(to right,rgba(174, 103, 250, 1),rgba(244, 152, 103, 1));
+    background-clip: text;
+    color: transparent;
+}
+.p1{
+    color: rgba(129, 175, 221, 1);
+    font-size: 15px;
+    width: 57%;
+    font-weight: 400;
+    transform: translateY(-30px);
+    font-family: Manrope;
+}
+.form input{
+    background: rgba(5, 45, 86, 1);
+    height: 53px;
+    width: 356px ;
+    border: 0;
+    outline: none;
+    padding-left: 20px;  
+}
+::placeholder {
+    color: rgba(61, 97, 132, 1);
+  }
+.form button{
+    background-color: rgba(255, 72, 32, 1);
+    height: 53px;
+    border: 0;
+    color: #ffff;
+    font-family: Manrope;
+    font-weight: 400;
+    width: 120px;
+    border-radius:0 5px 5px 0 ;
+}
+.signup p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    width: 234px ;
+}
+.form{
+    transform: translateY(-20px);
+    width: fit-content;
+}
+@media (min-width:1300px)and (max-width:1440px){
+    .headercontent h2{
+        width: 80% ;
+        font-size: 58px;
+    }
+    .p1{
+        width: 51%;
+        font-size: 17px;
+    }
+    .form input{
+        width: 450px;
+    }
+    .headerimg {
+        Width: 546.41px;
+        Height: 543.59px;
+        transform: translateX(-192px);
+    }
+}
+@media only screen and (max-width: 1024px){
+    .headercontent{
+        transform: translateX(78px);
+    }
+    .headercontent h2{
+        width: 94%;
+        font-size: 42px;
+    }
+    .p1{
+        width: 77%;
+        font-size: 14px;
+    }
+    .form input{
+        height: 53px;
+        width: 301px;
+    }
+    .headerimg {
+        Width: 466.41px;
+        Height: 497.59px;
+        transform: translateX(-36px);
+    }    
+}
+@media only screen and (max-width:768px){
+    .headercontent h2 {
+        width: 82%;
+        font-size: 38px;
+    }    
+    .p1 {
+        width: 68%;
+        font-size: 12px;
+    }
+    .headerimg {
+        Width: 271.41px;
+        Height: 401.59px;
+        transform: translateX(-36px);
+    }
+    .form input {
+        height: 37px;
+        width: 230px;
+    }
+    .form button {
+        height: 37px;
+    }
+    .signup img {
+        Width: 115.79px;
+        Height: 23px;
+    }
+    .signup p{
+        font-size: 8px;
+        width: 234px;
+    }
+}
+@media only screen and (max-width:426px){
+    .headercontent {
+        gap: 5px;
+        transform: translateX(19px);
+    }    
+    .headercontent h2 {
+        width: 93%;
+        font-size: 21px;
+    }
+    .p1 {
+        width: 86%;
+        font-size: 8px;
+        transform: translateY(-22px);
+    }
+    .form input {
+        height: 20px;
+        width: 105px;
+    }
+    .form button {
+        height: 22px;
+        font-size: 9px;
+        width: 81px;
+    }
+    .signup {
+        gap: 6px;
+    }
+    .signup img {
+    Width: 68.79px;
+    Height: 15px;
+    }
+    .signup p {
+        font-size: 6px;
+        width: 149px;
+    }
+    .headerimg {
+        Width: 166.41px;
+        Height: 241.59px;
+        transform: translate(-1px, -9px);    }
+}

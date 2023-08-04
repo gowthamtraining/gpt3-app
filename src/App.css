@@ -1,0 +1,27 @@
+html{
+    background: #040C18;;
+}
+.whatisgpt3{
+    margin-top: 60px;
+}
+.feature{
+    margin-top: 90px;
+}
+.featuress{
+    height: 650px;
+    margin-top: 40px;
+}
+.Cta{
+    margin-top: 70px;
+}
+.Blog{
+    margin-top: 80px;
+}
+.footer{
+    margin-top: 90px;
+}
+@media only screen and (max-width:768px){
+    .featuress {
+        height: 494px;
+    }
+}

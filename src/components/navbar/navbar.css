@@ -1,0 +1,153 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    height: 100px;
+    align-items: center;
+}
+nav h1 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navelements{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    transform: translateX(-90px);
+}
+.navelements li{
+    list-style: none;
+}
+.navelements a{
+    text-decoration: none;
+    font-family: Manrope;
+    color: #FFFFFF;
+}
+.navelements li:hover{
+    border-bottom: 1px solid #ffff;
+    padding-bottom: 1px;
+}
+.sign{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sign button{
+    background-color: #FF4820;
+    Width:130px;
+    Height:48px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 15px;
+}
+.nav img{
+    height: 40px;
+}
+.humberger i,.humbergers i{
+    color: #ffff;
+    font-size: 20px;
+}
+.humberger{
+    background: transparent;
+    border: 0;
+    display: none;
+}
+@media only screen and (max-width:1024px){
+    .navelements{
+        transform: translateX(19px);
+        gap: 37px;
+    }
+    nav h1{
+        transform: translateX(30px);
+    }
+}
+@media only screen and (max-width :768px){
+    .humberger{
+        display: block;
+        transform: translateX(69px);
+    }
+    .humbergers{
+        background-color: transparent;
+        border: 0;
+
+    }
+    #navelements {
+        display: flex;
+        flex-direction: column;
+        transform: translateY(212px);
+        width: 375px;
+        background: rgb(4 44 84 / 92%);
+        padding: 20px 0;
+        position: relative;
+        right: -277px;
+        z-index: 1;
+        height: 314px;
+        justify-content: center;
+        border-radius: 10px 0 0 10px;
+    }
+    #navelement{
+        display: none;
+    }
+    #sign{
+        transform: translateX(229px);
+    }
+    #sign button,#signs button{
+        Width: 105px;
+        Height: 40px;
+    }
+    #signs{
+        transform: translateX(24px);
+    }
+    .nav1{
+        transform: translateX(0px);
+    }
+    .nav1s{
+        transform: translateX(68px);
+    }
+}
+@media only screen and (max-width:426px){
+    .nav1 {
+        transform: translateX(-6px);
+    }
+    nav h1 a {
+        font-size: 22px;
+    }
+    #sign {
+        transform: translateX(82px);
+    }
+    #signs p{
+        width: 50px;
+        font-size: 16px;
+    }
+    #sign button, #signs button {
+        Width: 105px;
+        Height: 40px;
+    }
+    .nav1s {
+        transform: translateX(22px);
+        width: 78px;
+    }
+    nav h1 a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 22px;
+    }
+    #navelements {
+        transform: translate(-86px, 170px);
+        width: 152px;
+        height: 261px;
+    }
+    #signs {
+        transform: translateX(-6px);
+    }
+    .humberger {
+        transform: translateX(31px);
+    }
+    .sign{
+        gap: 8px;
+    }
+    .navelements a{
+        font-size: 11px;
+    }
+}

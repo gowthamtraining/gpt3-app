@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+.box{
+    width: 1004px;
+    height: 560px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color: rgba(4, 44, 84, 1);
+    margin: 0 auto;
+    padding: 40px;
+}
+.insidebox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.title .contents{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.t1,.t2,.t3{
+    display: flex;
+    flex-direction: column;
+}
+.tabaleContent{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+hr{
+    width: 38px;
+    height: 2px;
+    background: linear-gradient(to right,rgba(174, 103, 250, 1),rgba(244, 152, 103, 1));
+    border: 0;
+    margin: 0;
+    transform: translateY(10px);
+}
+.contents h3{
+    font-size: 24px;
+    font-family: Manrope;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+}
+.contents p{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    color:  rgba(129, 175, 221, 1);
+    width: 70%;
+    line-height: 30px;
+}
+.content h2{
+    font-family: manrope;
+    font-size: 34px;
+    font-weight: 800;
+    background: linear-gradient(to right,rgba(174, 103, 250, 1),rgba(244, 152, 103, 1),rgba(255, 255, 255, 1)); 
+    background-clip: text;
+    color: transparent;
+    width: 472px;
+}
+.content p{
+    color: rgba(255, 138, 113, 1);
+    font-size: 12px;
+    font-weight: 500;
+    font-family: manrope;
+}
+.tabaleContent h2{
+    font-size: 24px;
+    font-family: Manrope;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+}
+.tabaleContent p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(129, 175, 221, 1);
+    font-family: manrope;
+    line-height: 30px;
+    width: 280px;
+}
+@media (min-width:1300px)and (max-width:1440px){
+    .box{
+        width: 1175px;
+        padding: 50px;
+    }
+    .contents p{
+        width: 60%;
+    }
+    .content h2{
+        width: 536px;
+        font-size: 38px;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .table{
+        gap: 163px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .box {
+        width: 810px;
+        height: 493px;
+        padding:30px;}
+    hr{
+        width: 32px;
+        transform: translateY(10px);
+    }
+    .contents h3 {
+        font-size: 21px;}
+    .contents p {
+        font-size: 13px;
+        width: 70%;
+        line-height: 27px;
+    }
+    .content h2 {
+        font-size: 30px;
+        width: 412px;
+    }
+    .content p{
+        font-size: 11px;
+    }
+    .table {
+        gap: 24px;
+    }
+    .tabaleContent h2 {
+        font-size: 19px;
+    }
+    .tabaleContent p {
+        font-size: 12px;
+        line-height: 26px;
+        width: 250px;
+    }
+    .tabaleContent{
+        gap:0px
+    }
+}
+@media only screen and (max-width:768px){
+    .box {
+        width: 579px;
+        height: 414px;
+        padding: 22px;
+    }
+    .contents h3 {
+        font-size: 15px;
+    }
+    .contents p {
+        font-size: 10px;
+        width: 76%;
+        line-height: 20px;
+    }
+    .content h2 {
+        font-size: 23px;
+        width: 360px;
+    }
+    .content p {
+        font-size: 9px;
+    }
+    .table {
+        gap: 4px;
+    }
+    .tabaleContent h2 {
+        font-size: 15px;
+    }
+    .tabaleContent p {
+        font-size: 9px;
+        line-height: 26px;
+        width: 187px;
+    }
+}
+@media only screen and (max-width:426px){
+    .box {
+        width: 370px;
+        height: 244px;
+        padding: 12px;
+    }
+    hr {
+        width: 22px;
+        transform: translateY(4px);
+    }
+    .contents h3 {
+        font-size: 9px;
+    }
+    .contents p {
+        font-size: 6px;
+        width: 73%;
+        line-height: 10px;
+    }   
+    .content h2 {
+        font-size: 13px;
+        width: 189px;
+    }
+    .content p {
+        font-size: 6px;
+    }
+    .table {
+        gap: 29px;
+    }
+    .tabaleContent h2 {
+        font-size: 11px;
+    }
+    .tabaleContent p {
+        font-size: 5px;
+        line-height: 10px;
+        width: 103px;
+    }
+}

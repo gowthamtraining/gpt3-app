@@ -1,0 +1,39 @@
+.companylogo{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    gap: 40px;
+}
+.companylogo img{
+    height: 15.15px;
+    width: 60.1px;
+}
+@media only screen and (max-width :1440px){
+    .companylogo img {
+        height: 24.15px;
+        width: 76.1px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .companylogo img {
+        height: 20.15px;
+        width: 67.1px;
+    }    
+}
+@media only screen and (max-width:768px){
+    .companylogo img {
+        height: 15.15px;
+        width: 53.1px;
+    }
+}
+@media only screen and (max-width:426px){
+    .companylogo{
+        gap: 30px;
+        height: 44px;
+    }
+    .companylogo img {
+        height: 10.15px;
+        width: 35.1px;
+    }
+}

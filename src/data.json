@@ -1,0 +1,44 @@
+{
+    "navbar":{"menuList":["Home","What is GPT?","Feature","Features","Blog"],
+    "headerTitle":"GPT-3",
+    "signin":"Sign in",
+    "signup":"signup"
+},
+"header":{
+    "headercontent_H":"Let’s Build Something amazing with GPT-3 OpenAI",
+    "headercontent_p":"Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.",
+    "peopleText":"1,600 people requested access a visit in last 24 hours",
+    "buttonText":"Get Started"
+},
+"whtaisgpt":{
+    "title":"What is GPT-3",
+    "titleP":"We so opinion friends me message as delight. Whole front do of plate heard oh ought.His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.",
+    "heading":"The possibilities are beyond your imagination",
+    "headingP":"Explore The Library",
+    "table":[{"title":"Chatbots","paragraph":"We so opinion friends me message as delight. Whole front do of plate heard oh ought."},{"title":"Knowledgebase","paragraph":"At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"},{"title":"Education","paragraph":"At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"}]
+},
+"feature":{
+    "featureheadiing":"The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.",
+    "featurep":"Request Early Access to Get Started",
+    "table":[{"title":"Improving end distrusts instantly ","para":"From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded."},{"title":"Become the tended active","para":"Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to."},{"title":"Message or am nothing","para":"Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address."},{"title":"Really boy law county","para":"Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush."}]
+},
+"features":{
+    "para":["Request Early Access to Get Started","Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.","Request Early Access to Get Started"],
+    "title":"The possibilities are beyond your imagination"
+},"cta":{
+    "para":["Request Early Access to Get Started","Register today & start exploring the endless possiblities."],"buttontext":"Get Started"
+},"blog":{
+    "blogmainh2":"A lot is happening , We'are blogging about it.",
+    "blogcard2content":{"p1":"Sep 26, 2021","h2":"GPT-3 and Open AI is the future. Let us exlore how it is?","p2":"Read Full Article"},
+    "blogcard1":[{"p1":"Sep 26, 2021","h2":"GPT-3 and Open AI is the future. Let us exlore how it is?","p2":"Read Full Article"},{"p1":"Sep 26, 2021","h2":"GPT-3 and Open AI is the future. Let us exlore how it is?","p2":"Read Full Article"}]
+},
+"footer":{
+    "title":"Do you want to step in to the future before others",
+    "buttontext":"Request Early Access",
+    "tabletittle":"GPT-3",
+    "tablepara":"Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved",
+    "tableitem":[["Links","Overons","Social Media","Counters","Counters"],["Company","Terms & Conditions","Privacy Policy","Contact"],["Get in touch","Crechterwoord K12 182 DK Alknjkcb","085-132567","info@payme.net"]],
+    "footerlast":"© 2021 GPT-3. All rights reserved."
+}
+
+}

@@ -1,0 +1,5 @@
+export {default as img1} from "./Rectangle 22.png"
+export {default as img2} from "./Rectangle 22 (1).png"
+export {default as img3} from "./Rectangle 22 (2).png"
+export {default as img4} from "./Rectangle 22 (3).png"
+export {default as img5} from "./Rectangle 22 (4).png"

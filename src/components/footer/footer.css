@@ -1,0 +1,214 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    background-color: rgba(3, 27, 52, 1);
+}
+.Footer .table{
+    display: flex;
+}
+.footert2{
+    display: flex;
+    gap: 80px;
+}
+.footertable{
+    display: flex;
+    justify-content: center;
+    gap: 380px;
+    margin-top: 170px;
+}
+.Footer button{
+    align-self: center;
+    width: 200px;
+    border: 1px solid #ffff;
+    background-color: transparent;
+    color: #ffff;
+    padding: 20px 0;
+}
+.Footer .h33{
+    font-size: 60px;
+    background: linear-gradient(to right,rgba(174, 103, 250, 1),
+    rgba(244, 152, 103, 1));
+    background-clip: text;
+    color: transparent;
+    width: 841px;
+    text-align: center;
+    align-self: center;
+    margin-top: 80px;
+}
+.footertable h2{
+    color: rgba(255, 255, 255, 1);
+}
+.footertable p{
+    font-size: 11px;
+    width:168px;
+   color: rgba(255, 255, 255, 1)
+}
+.footert21 li a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 12px;
+}
+.footert21 li{
+    list-style: none;
+    width: 116px;
+}
+.footert21{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footerlast{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 90px;
+}
+.footer21a{
+    font-weight: bolder;
+}
+.footer21a2{
+    font-weight: lighter;
+}
+.footer21a2:hover{
+    text-decoration: underline;
+}
+@media (min-width:1300px) and (max-width:1440px){
+    .Footer{
+        height: 843px;
+    }
+    .Footer button {
+        width: 225px;
+        padding: 23px 0;
+        font-size: 18px;
+    }
+    .footertable h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+    .footertable p {
+        font-size: 14px;
+        width: 180px;
+    }
+    .footert21 {
+        gap: 25px;
+    }
+    .footert21 li {
+        width: 155px;
+    }
+    .footert21 li a {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .Footer{
+        height: 762px;
+    }
+    .Footer .h33{
+        width: 742px;
+        font-size: 45px;
+    }
+    .footertable {
+        gap: 170px;
+    }
+    .footertable h2 {
+        font-size: 28px;
+        margin: 0;
+    }
+    .footertable p {
+        font-size: 12px;
+        width: 168px;
+        font-weight: 100;
+    }
+    .footert2 {
+        gap: 63px;
+    }
+    .footert21 li {
+        width: 127px;
+    }
+    .footert21 li a {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:768px){
+    .Footer {
+        height: 720px;
+    }
+    .Footer .h33 {
+        width: 556px;
+        font-size: 35px;
+    }
+    .Footer button{
+        width: 175px;
+        font-size: 14px;
+        padding: 15px 0;
+    }
+    .footertable {
+        gap: 102px;
+    }
+    .footertable h2 {
+        font-size: 25px;
+        margin: 0;
+    }
+    .footertable p {
+        font-size: 11px;
+        width: 133px;
+        font-weight: 100;
+    }
+    .footert2 {
+        gap: 35px;
+    }
+    .footert21 li {
+        width: 100px;
+    }
+    .footert21 li a {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:426px){
+    .Footer {
+        height: 482px;
+    }
+    .Footer .h33 {
+        width: 330px;
+        font-size: 21px;
+    }
+    .Footer button {
+        width: 116px;
+        font-size: 9px;
+        padding: 15px 0;
+        height: 38px;
+    }
+    .footertable {
+        gap: 61px;
+        margin-top: 74px;
+    }
+    .footertable h2 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .footertable p {
+        font-size: 7px;
+        width: 97px;
+        font-weight: 100;
+    }
+    .footert2 {
+        gap: 4px;
+    }
+    .footert21{
+        gap: 11px;
+    }
+    .footert21 li {
+        width: 73px;
+        height: 24px;
+    }
+    .footert21 li a {
+        font-size: 8px;
+    }
+    .footerlast {
+        font-size: 8px;
+        margin-top: 28px;
+    }
+
+}

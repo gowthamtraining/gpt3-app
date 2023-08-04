@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+.featurebox{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.featuretable .table1{
+    display: flex;
+    gap: 20px;
+}
+.featurecontent h2{
+    font-size: 34px;
+    font-family: Manrope;
+    line-height: 45px;
+    font-weight: 800;
+    background: linear-gradient(to right,rgba(174, 103, 250, 1),
+    rgba(244, 152, 103, 1));
+    background-clip: text;
+    color: transparent;
+    width: 430px;
+}
+.featurecontent p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Manrope;
+    color: rgba(255, 138, 113, 1);
+}
+.tablecontent h3{
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+    width: 182px;
+}
+.table1 p{
+    font-size: 14px;
+    font-family: Manrope;
+    line-height: 24px;
+    color: rgba(129, 175, 221, 1);
+    width: 340px;
+}
+@media (min-width:1300px) and (max-width:1440px){
+    .featurebox {
+        gap: 304px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .featurebox {
+        gap: 37px;
+    }
+    .featurecontent h2{
+        font-size: 28px;
+        line-height: 38px;
+        width: 355px;
+    }
+    .featurecontent p{
+        font-size: 10px;
+    }
+    .tablecontent h3{
+        font-size: 16px;
+        width: 168px;
+    }
+    .table1 p{
+        font-size: 12px;
+        width: 281px;
+    }
+}
+@media only screen and (max-width:768px){
+    .table1 p {
+        font-size: 10px;
+        width: 235px;
+        line-height: 20px
+    }
+    .tablecontent h3 {
+        font-size: 12px;
+        width: 114px;
+    }
+    .featuretable .table1 {
+        gap: 26px;
+    }
+    .featurecontent p {
+        font-size: 8px;
+    }
+    .featurecontent h2 {
+        font-size: 16px;
+        line-height: 25px;
+        width: 198px;
+    }
+    .featurebox {
+        gap: 41px;
+    }
+}
+@media only screen and (max-width:426px){
+    .featurebox {
+        gap: 22px;
+    }
+    .featurecontent h2 {
+        font-size: 12px;
+        line-height: 18px;
+        width: 149px;
+    }
+    .featurecontent p {
+        font-size: 6px;
+    }
+    .featuretable .table1 {
+        gap: 12px;
+    }
+    .tablecontent h3 {
+        font-size: 8px;
+        width: 74px;
+    }
+    .table1 p {
+        font-size: 6px;
+        width: 141px;
+        line-height: 11px;
+    }
+}
